@@ -1,0 +1,45 @@
+body {
+    background-image: url('bg.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    z-index: -1;
+}
+
+.dialog-box {
+    background-color: #040314;
+    height: 300px;
+    width: 97%;
+
+    position: relative;
+    left: 1%;
+    top: 550px;
+
+    border-style: solid;
+    border-width: 7px;
+    border-color: #919191;
+
+    z-index: 1;
+}
+
+
+.player1 {
+    position: relative;
+    right: 20%;
+    transform: scale(6);
+}
+
+.player2 {
+    position: relative;
+    left: 20%;
+    top: 20px;
+    transform: scale(6);
+}
