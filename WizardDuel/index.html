@@ -10,16 +10,28 @@
     <div class="board">
         <div class="player1">
             <img src="wizard.gif" alt="A wizard in a blue robe representing player one.">
+            <div id=p1hp>
+                <span id="hp1">100</span>
+            </div>
         </div>
         <div class="player2">
             <img src="necromancer.gif" alt="A wizard in a red robe representing player two.">
+            <div id=p2hp>
+                <span id="hp2">100</span>
+            </div>
         </div>
     </div>
 
-    <div class="dialog-box">
+    <div class="button-panel">
+        <button id="attackbutton" onclick=attack()>Attack</button>
     </div>
 
-</body>
+    <div class="dialog-box">
+        <p id="dialog">Start of Combat Log</p>
+    </div>
 
+    <script src="script.js"></script>
+
+</body>
 
 </html>
