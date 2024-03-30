@@ -61,6 +61,16 @@ body {
     z-index: 1;
 }
 
+#healbutton {
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+    background-color: #4d4897;
+    font-size: 30px;
+    padding: 32px 48px;
+}
+
 
 .player1 {
     image-rendering: pixelated;
